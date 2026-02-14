@@ -12,6 +12,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@farcaster/frame-sdk": "^0.1.14",
     "@neynar/nodejs-sdk": "^3.134.0",
     "@supabase/supabase-js": "^2.95.3",
     "next": "16.1.6",

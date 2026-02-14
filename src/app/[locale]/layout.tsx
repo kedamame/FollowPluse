@@ -2,6 +2,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
+import FrameInit from "@/components/FrameInit";
 
 type Props = {
   children: React.ReactNode;
@@ -24,6 +25,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
+      <FrameInit />
       <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
         {children}
       </div>
