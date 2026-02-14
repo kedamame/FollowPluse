@@ -12,8 +12,8 @@ export async function GET() {
     frame: {
       version: "next",
       name: "FollowPulse",
-      iconUrl: `${appUrl}/icon.png`,
-      splashImageUrl: `${appUrl}/splash.png`,
+      iconUrl: `${appUrl}/api/og/icon`,
+      splashImageUrl: `${appUrl}/api/og/splash`,
       splashBackgroundColor: "#7c3aed",
       homeUrl: appUrl,
       webhookUrl: `${appUrl}/api/webhook`,
