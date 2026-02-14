@@ -1,0 +1,59 @@
+{
+  "common": {
+    "appName": "FollowPulse",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "noData": "No data available",
+    "lastUpdated": "Last updated"
+  },
+  "nav": {
+    "rankings": "Rankings",
+    "language": "Language"
+  },
+  "rankings": {
+    "title": "Farcaster Rankings",
+    "subtitle": "Track follower trends of popular users in real time",
+    "metric": {
+      "label": "Metric",
+      "follower_count": "Followers",
+      "24h_growth": "24h Growth",
+      "6h_growth": "6h Growth"
+    },
+    "rank": "Rank",
+    "user": "User",
+    "followers": "Followers",
+    "score": "Score",
+    "growth": "Change",
+    "details": "Details",
+    "page": "Page",
+    "prev": "Prev",
+    "next": "Next"
+  },
+  "detail": {
+    "title": "User Detail",
+    "followerHistory": "Follower History",
+    "recentEvents": "Recent Follow/Unfollow Events",
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "followed": "was followed",
+    "unfollowed": "was unfollowed",
+    "by": "by",
+    "close": "Close",
+    "noEvents": "No recent events",
+    "openWarpcast": "Open in Warpcast",
+    "followOnWarpcast": "Follow on Warpcast",
+    "viewProfile": "View Profile"
+  },
+  "notifications": {
+    "title": "Notification Settings",
+    "enabled": "Enable notifications",
+    "threshold": "Follower increase threshold (per 6 hours)",
+    "save": "Save",
+    "saved": "Saved"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "connectWarpcast": "Connect with Warpcast"
+  }
+}

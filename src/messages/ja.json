@@ -1,0 +1,59 @@
+{
+  "common": {
+    "appName": "FollowPulse",
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "noData": "データがありません",
+    "lastUpdated": "最終更新"
+  },
+  "nav": {
+    "rankings": "ランキング",
+    "language": "言語"
+  },
+  "rankings": {
+    "title": "Farcaster ランキング",
+    "subtitle": "人気ユーザーのフォロワー動向をリアルタイムで追跡",
+    "metric": {
+      "label": "指標",
+      "follower_count": "フォロワー数",
+      "24h_growth": "24h 増加数",
+      "6h_growth": "6h 増加数"
+    },
+    "rank": "順位",
+    "user": "ユーザー",
+    "followers": "フォロワー",
+    "score": "スコア",
+    "growth": "増減",
+    "details": "詳細",
+    "page": "ページ",
+    "prev": "前へ",
+    "next": "次へ"
+  },
+  "detail": {
+    "title": "ユーザー詳細",
+    "followerHistory": "フォロワー推移",
+    "recentEvents": "最近のフォロー/アンフォロー",
+    "follow": "フォロー",
+    "unfollow": "アンフォロー",
+    "followed": "フォローされました",
+    "unfollowed": "フォロー解除されました",
+    "by": "by",
+    "close": "閉じる",
+    "noEvents": "最近のイベントはありません",
+    "openWarpcast": "Warpcastで開く",
+    "followOnWarpcast": "Warpcastでフォローする",
+    "viewProfile": "プロフィールを見る"
+  },
+  "notifications": {
+    "title": "通知設定",
+    "enabled": "通知を有効にする",
+    "threshold": "フォロワー増加閾値（6時間あたり）",
+    "save": "保存",
+    "saved": "保存しました"
+  },
+  "auth": {
+    "signIn": "サインイン",
+    "signOut": "サインアウト",
+    "connectWarpcast": "Warpcastで接続"
+  }
+}
